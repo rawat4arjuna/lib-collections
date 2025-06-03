@@ -5,9 +5,21 @@
     "packages/*",
     "apps/*"
   ],
-    "devDependencies": {
+  "scripts": {
+    "dev": "npm run --workspace apps/web dev",
+    "build": "npm run build:lib && npm run build:app",
+    "build:rtl-react-hooks": "npm run --workspace packages/rtl-react-hooks build",
+    "build:app": "npm run --workspace apps/web build",
+    "clean": "rimraf packages/**/dist apps/**/dist",
+    "lint": "npm run --workspaces lint",
+    "test": "npm run --workspaces test"
+  },
+  "devDependencies": {
     "typescript": "^5.8.3",
     "vite": "^6.3.5",
-  "vite-plugin-dts": "^4.5.4"
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "dependencies": {
+    "rimraf": "^6.0.1"
   }
 }

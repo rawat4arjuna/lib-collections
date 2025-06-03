@@ -40,7 +40,7 @@ jobs:
           ls -ltr
           cp -r apps/web/dist/* gh-pages-temp/web/
           mkdir -p gh-pages-temp/rtl-hooks-docs
-          cp -r docs/rtl-hooks-doc/.docasources/* gh-pages-temp/rtl-hooks-docs/
+          cp -r docs/rtl-hooks-docs/.docasources/* gh-pages-temp/rtl-hooks-docs/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

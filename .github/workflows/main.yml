@@ -37,7 +37,8 @@ jobs:
         run: |
           rm -rf gh-pages-temp
           mkdir -p gh-pages-temp/web
-          ls -ltr
+          apt install tree
+          tree
           cp -r apps/web/dist/* gh-pages-temp/web/
           mkdir -p gh-pages-temp/rtl-hooks-docs
           cp -r docs/rtl-hooks-docs/.docasources/* gh-pages-temp/rtl-hooks-docs/

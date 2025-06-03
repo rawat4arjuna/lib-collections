@@ -25,7 +25,7 @@ jobs:
           cd apps/web
           npm install
           npm run build
-          ls -ltr
+      
 
       - name: Build rtl-react-hooks
         run: |
@@ -37,6 +37,7 @@ jobs:
         run: |
           rm -rf gh-pages-temp
           mkdir -p gh-pages-temp/web
+          ls -ltr
           cp -r web/dist/* gh-pages-temp/web/
           mkdir -p gh-pages-temp/rtl-hooks-docs
           cp -r rtl-hooks-doc/dist/* gh-pages-temp/rtl-hooks-docs/

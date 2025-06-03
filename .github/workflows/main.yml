@@ -38,9 +38,9 @@ jobs:
           rm -rf gh-pages-temp
           mkdir -p gh-pages-temp/web
           ls -ltr
-          cp -r web/dist/* gh-pages-temp/web/
+          cp -r apps/web/dist/* gh-pages-temp/web/
           mkdir -p gh-pages-temp/rtl-hooks-docs
-          cp -r rtl-hooks-doc/dist/* gh-pages-temp/rtl-hooks-docs/
+          cp -r docs/rtl-hooks-doc/dist/* gh-pages-temp/rtl-hooks-docs/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

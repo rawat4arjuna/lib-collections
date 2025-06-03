@@ -1,0 +1,13 @@
+{
+  "name": "lib-collections",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+    "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+  "vite-plugin-dts": "^4.5.4"
+  }
+}

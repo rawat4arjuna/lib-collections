@@ -1,16 +1,25 @@
-import { defineConfig } from 'vite'
-import dts from 'vite-plugin-dts'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import path from 'path';
 
 export default defineConfig({
+  plugins: [react()],
   build: {
     lib: {
-      entry: 'src/index.ts',
-      name: 'MyLib',
-      fileName: (format) => `my-lib.${format}.js`
+      entry: path.resolve(__dirname, 'src/index.ts'),
+      name: 'rtlReactHooks',
+      formats: ['es', 'cjs'],
+      fileName: (format) => `index.${format}.js`
     },
     rollupOptions: {
-      external: [], // Add external deps here if needed
-    }
+      external: ['react', 'react-dom'],
+      output: {
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+        },
+      },
+    },
+    outDir: 'dist'
   },
-  plugins: [dts()]
-})
+});

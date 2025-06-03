@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Sample from "./components/sample";
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
+ReactDOM.createRoot(document.getElementById("app")!).render(
   <React.StrictMode>
-    <Sample />
+    <Sample /> hhhhh
   </React.StrictMode>
 );

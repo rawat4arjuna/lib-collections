@@ -6,7 +6,8 @@
     "outDir": "dist",
     "moduleResolution": "node",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
   },
   "include": ["src"]
 }

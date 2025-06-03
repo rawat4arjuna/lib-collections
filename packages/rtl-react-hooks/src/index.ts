@@ -1,1 +1,1 @@
-export const greet = (name: string) => `Hello, ${name}!`
+export { default as useRtlState } from './hooks/useRtlState'

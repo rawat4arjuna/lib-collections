@@ -1,5 +1,5 @@
 {
-  "name": "rtl-react-hooks",    
+  "name": "rtl-react-hooks",
   "version": "1.0.0",
   "main": "dist/rtt-react-hooks.umd.js",
   "module": "dist/rtl-react-hooks.es.js",
@@ -12,5 +12,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5"
   }
 }

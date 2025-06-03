@@ -25,6 +25,7 @@ jobs:
           cd apps/web
           npm install
           npm run build
+          ls -ltr
 
       - name: Build rtl-react-hooks
         run: |

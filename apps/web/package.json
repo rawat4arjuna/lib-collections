@@ -2,7 +2,8 @@
   "name": "web",
   "homepage": "/lib-collections/web",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "devDependencies": {
     "@types/react": "^19.1.6",

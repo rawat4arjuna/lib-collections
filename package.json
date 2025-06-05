@@ -1,5 +1,5 @@
 {
-  "name": "lib-collections",
+  "name": "nexora",
   "private": true,
   "workspaces": [
     "packages/*",

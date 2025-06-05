@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrtl_hooks_docs=self.webpackChunkrtl_hooks_docs||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/lib-collections/rtl-hooks-docs/blog","blogTitle":"Blog","authorsListPath":"/lib-collections/rtl-hooks-docs/blog/authors"}')}}]);

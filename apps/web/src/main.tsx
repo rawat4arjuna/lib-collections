@@ -4,6 +4,6 @@ import Sample from "./components/sample";
 
 ReactDOM.createRoot(document.getElementById("app")!).render(
   <React.StrictMode>
-    <Sample /> hhhhh
+    <Sample />
   </React.StrictMode>
 );

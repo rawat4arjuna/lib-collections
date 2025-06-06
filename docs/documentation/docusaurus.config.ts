@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Rexora',
-  tagline: 'Next Development, Supercharged.',
+  tagline: 'Empowering developers with blazing-fast tools ⚙️, intuitive UX 🎯, and scalable architecture 🧱 to build the next generation of web experiences 🌐—supercharged for speed ⚡, flexibility 🔧, and impact 🚀.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

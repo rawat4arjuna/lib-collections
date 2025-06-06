@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhooks=self.webpackChunkhooks||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/rexora/documentation/blog","blogTitle":"Blog","authorsListPath":"/rexora/documentation/blog/authors"}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhooks=self.webpackChunkhooks||[]).push([[4661],{4048:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/rexora/hooks/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

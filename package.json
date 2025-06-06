@@ -22,9 +22,9 @@
     "vite-plugin-dts": "^4.5.4"
   },
   "dependencies": {
+    "@rexora/hooks": "^1.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "rimraf": "^6.0.1",
-     "@rexora/hooks": "*"
+    "rimraf": "^6.0.1"
   }
 }

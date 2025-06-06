@@ -31,7 +31,7 @@ jobs:
 
       - name: Build @rexora/hooks
         run: |
-          cd docs/hooks
+          cd docs/documentation
           npm install
           npm run build
 
@@ -41,7 +41,7 @@ jobs:
           mkdir -p gh-pages-temp/web
           cp -r apps/web/build/. gh-pages-temp/web/
           mkdir -p gh-pages-temp/hooks
-          cp -r docs/hooks/build/. gh-pages-temp/hooks/
+          cp -r docs/documentation/build/. gh-pages-temp/documentation/
           touch gh-pages-temp/.nojekyll
 
       - name: Deploy to GitHub Pages

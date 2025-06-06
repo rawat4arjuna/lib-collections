@@ -1,6 +1,6 @@
 {
-  "name": "hooks",
-  "homepage": "rexora/hooks",
+  "name": "documentation",
+  "homepage": "rexora/documentation",
   "version": "0.0.0",
   "private": true,
   "scripts": {

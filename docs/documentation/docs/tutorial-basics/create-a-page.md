@@ -2,17 +2,17 @@
 sidebar_position: 1
 ---
 
-# useRexoraState)
+# useRexoraState()
 
-The `useRexoraState)` hook is part of the **rexora** library — a powerful collection of custom React hooks and utilities designed to simplify and streamline state management in your applications.
+The `useRexoraState()` hook is part of the **rexora** library — a powerful collection of custom React hooks and utilities designed to simplify and streamline state management in your applications.
 
 Use it in any React component to manage local state with a clean and intuitive API.
 
 ## Basic Usage
 
-Create a new React page to try `useRexoraState)` in action:
+Create a new React page to try `useRexoraState()` in action:
 
-### Example: `useRexoraState)` Counter
+### Example: `useRexoraState()` Counter
 
 Create a file at `src/pages/use-rexora-state-example.js`:
 
@@ -24,7 +24,7 @@ import { userexoraState } from 'rexora';
 type Props = {};
 
 export default function Sample({}: Props) {
-  const [state, setState] = useRexoraState{ count: 0 });
+  const [state, setState] = useRexoraState({ count: 0 });
   const { count } = state;
 
   return (

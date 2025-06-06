@@ -22,7 +22,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Nexora Tutorial - 5min ⏱️
+            rexora Tutorial - 5min ⏱️
           </Link>
         </div>
       </div>

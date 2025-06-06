@@ -2,10 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-   base: '/nexora/web/',
+   base: '/rexora/web/',
   plugins: [react()],
   optimizeDeps: {
-    include: ['rtl-react-hooks'],
+    include: ['@rexora/hooks'],
   },
   build: {
     outDir: 'build',

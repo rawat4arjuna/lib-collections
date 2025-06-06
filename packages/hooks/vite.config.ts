@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'rtlReactHooks',
+      name: '@rexora/hooks',
       formats: ['es', 'cjs'],
       fileName: (format) => `index.${format}.js`
     },

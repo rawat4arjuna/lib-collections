@@ -24,7 +24,7 @@ function stateReducer(state: State, action: Action): State {
 }
 
 // Custom hook
-function useRtlState<T extends State = State>(
+function useRexoraState<T extends State = State>(
   initialState: T = {} as T
 ): [T, (key: keyof T | Partial<T>, value?: any) => void, (key: keyof T) => void, () => void] {
   const [state, dispatch] = useReducer(stateReducer, initialState);
@@ -53,4 +53,4 @@ function useRtlState<T extends State = State>(
   return [state as T, setState, removeState, resetState];
 }
 
-export default useRtlState;
+export default useRexoraState;

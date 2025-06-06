@@ -1,5 +1,5 @@
 {
-  "name": "nexora",
+  "name": "rexora",
   "private": true,
   "workspaces": [
     "packages/*",
@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "npm run --workspace apps/web dev",
     "build": "npm run build:lib && npm run build:app",
-    "build:rtl-react-hooks": "npm run --workspace packages/rtl-react-hooks build",
+    "build:@rexora/hooks": "npm run --workspace packages/@rexora/hooks build",
     "build:app": "npm run --workspace apps/web build",
     "clean": "rimraf packages/**/dist apps/**/dist",
     "lint": "npm run --workspaces lint",
@@ -25,6 +25,6 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "rimraf": "^6.0.1",
-     "rtl-react-hooks": "*"
+     "@rexora/hooks": "*"
   }
 }

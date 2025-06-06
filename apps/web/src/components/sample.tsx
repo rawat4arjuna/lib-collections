@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { useRtlState } from "rtl-react-hooks";
+import { useRexoraState } from "@rexora/hooks";
 type Props = {};
 
 export default function Sample({}: Props) {
-  const [state, setState] = useRtlState({ count: 0 });
+  const [state, setState] = useRexoraState({ count: 0 });
   const { count } = state;
   return (
     <div>

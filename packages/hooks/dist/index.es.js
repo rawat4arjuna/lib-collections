@@ -1,19 +1,19 @@
 import { useReducer as E } from "react";
-function n(s, e) {
+function n(o, e) {
   switch (e.type) {
     case "SET_STATE":
-      return { ...s, ...e.payload };
+      return { ...o, ...e.payload };
     case "RESET_STATE":
       return {};
     case "REMOVE_STATE":
-      const { [e.key]: r, ...o } = s;
-      return o;
+      const { [e.key]: r, ...s } = o;
+      return s;
     default:
       throw new Error(`Unhandled action type: ${e.type}`);
   }
 }
-function c(s = {}) {
-  const [e, r] = E(n, s);
+function c(o = {}) {
+  const [e, r] = E(n, o);
   return [e, (t, a) => {
     if (typeof t == "string")
       r({ type: "SET_STATE", payload: { [t]: a } });
@@ -28,5 +28,5 @@ function c(s = {}) {
   }];
 }
 export {
-  c as useRtlState
+  c as useRexoraState
 };

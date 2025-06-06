@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Nexora',
+  title: 'rexora',
   tagline: 'Next Development, Supercharged.',
   favicon: 'img/favicon.ico',
 
@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/nexora/rtl-hooks-docs',
+  baseUrl: '/rexora/rtl-hooks-docs',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -73,9 +73,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Nexora',
+      title: 'rexora',
       logo: {
-        alt: 'Nexora Logo',
+        alt: 'rexora Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -136,7 +136,7 @@ const config: Config = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Nexora, Inc. `,
+      copyright: `Copyright © ${new Date().getFullYear()} rexora, Inc. `,
     },
     prism: {
       theme: prismThemes.github,

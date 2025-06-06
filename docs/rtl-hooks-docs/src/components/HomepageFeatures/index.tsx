@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Nexora was designed from the ground up to be easily installed and used
+        rexora was designed from the ground up to be easily installed and used
         to get your projects up and running quickly.
       </>
     ),
@@ -25,7 +25,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Nexora lets you focus on your code, and we&apos;ll handle the rest. Go
+        rexora lets you focus on your code, and we&apos;ll handle the rest. Go
         ahead and organize your components easily.
       </>
     ),
@@ -35,7 +35,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        Extend or customize your project layout by reusing React. Nexora can be
+        Extend or customize your project layout by reusing React. rexora can be
         extended while keeping a consistent design.
       </>
     ),

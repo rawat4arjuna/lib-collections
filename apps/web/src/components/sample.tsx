@@ -3,7 +3,7 @@ import { useRexoraState } from "@rexora/hooks";
 type Props = {};
 
 export default function Sample({}: Props) {
-  const [state, setState] = useRexoraState({ count: 0 });
+  const [state, setState] = useRexoraState{ count: 0 });
   const { count } = state;
   return (
     <div>

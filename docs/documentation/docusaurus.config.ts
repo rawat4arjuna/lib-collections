@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'rexora',
+  title: 'Rexora',
   tagline: 'Next Development, Supercharged.',
   favicon: 'img/favicon.ico',
 
@@ -73,7 +73,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'rexora',
+      title: 'Rexora',
       logo: {
         alt: 'rexora Logo',
         src: 'img/logo.svg',
@@ -136,10 +136,10 @@ const config: Config = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} rexora, Inc. `,
+      copyright: `Copyright © ${new Date().getFullYear()} Rexora, Inc. `,
     },
     prism: {
-      theme: prismThemes.github,
+      theme: prismThemes.duotoneDark,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,

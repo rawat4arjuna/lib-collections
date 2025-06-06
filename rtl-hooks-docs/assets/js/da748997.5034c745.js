@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkrtl_hooks_docs=self.webpackChunkrtl_hooks_docs||[]).push([[4750],{5520:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/nexora/rtl-hooks-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

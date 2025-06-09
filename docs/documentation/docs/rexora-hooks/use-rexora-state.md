@@ -31,7 +31,7 @@ The hook returns a tuple containing:
 ```
 jsx
 import React from 'react';
-import useRexoraState from './useRexoraState'; // Adjust the import path
+import {useRexoraState} from 'rexora-hooks' // Adjust the import path
 
 function StateComponent() {
   const [state, setState, removeState, resetState] = useRexoraState({

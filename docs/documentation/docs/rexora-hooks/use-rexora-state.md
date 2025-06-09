@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # useRexoraState
 
 `useRexoraState` is a custom React hook that provides a flexible way to manage state using a reducer pattern. It allows you to set, reset, and remove specific keys from a state object.
@@ -31,7 +35,7 @@ The hook returns a tuple containing:
 ```
 jsx
 import React from 'react';
-import {useRexoraState} from 'rexora-hooks' // Adjust the import path
+import {useRexoraState} from 'rexora-hooks' 
 
 function StateComponent() {
   const [state, setState, removeState, resetState] = useRexoraState({

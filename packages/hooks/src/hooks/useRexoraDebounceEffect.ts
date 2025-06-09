@@ -4,8 +4,8 @@ type EffectCallback = () => void | (() => void);
 
 function useRexoraDebounceEffect(
   callback: EffectCallback,
+  dependencies: React.DependencyList,
   delay: number,
-  dependencies: any
 ): void {
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const cleanupRef = useRef<(() => void) | void>(undefined);

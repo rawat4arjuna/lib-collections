@@ -3,7 +3,6 @@
 sidebar_position: 2
 ---
 
-import { useRexoraDebounceEffect } from "@rexora/hooks";
 # useRexoraDebounceEffect
 
 The `useRexoraDebounceEffect` hook provides a way to debounce the execution of an effect hook. This is particularly useful when you have dependencies that change frequently and you want to avoid triggering the effect on every single change. It works by waiting for a specified delay after the dependencies have stopped changing before executing the provided callback function.
@@ -67,3 +66,13 @@ function MyComponent() {
   );
 }
 ```
+
+
+
+## Notes
+
+- The `effectFn` will only execute after the specified `delay` has passed without any changes to the `dependencies`.
+- If the `dependencies` change before the delay has passed, the previous timeout will be cleared, and a new timeout will be set.
+- The hook ensures that event listeners and timeouts are properly managed to prevent memory leaks.
+
+

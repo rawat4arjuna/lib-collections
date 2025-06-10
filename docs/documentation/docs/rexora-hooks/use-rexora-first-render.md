@@ -1,10 +1,12 @@
 ---
 id: use-rexora-first-render
 title: useRexoraFirstRender
+hide_title: true
 ---
 
-The `useRexoraFirstRender` hook is a simple utility that returns a boolean value indicating whether the current render is the first render of the component. This can be useful in scenarios where you need to perform an action or logic only on the initial render and not on subsequent updates.
+The `useRexoraFirstRender` hook is a simple utility that returns a boolean value indicating whether the current render is the first render of the component.
 
+It's imported from `@rexora/hooks`.
 ## Usage
 ```
 typescript

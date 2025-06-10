@@ -11,6 +11,10 @@ The `useRexoraHover` hook is a utility that detects whether a specified DOM elem
 
 This hook takes a React ref object pointing to a DOM element. It attaches event listeners for `mouseenter` and `mouseleave` to this element. When the mouse pointer enters the element's boundary, the hook's internal state is updated to `true`. When the mouse pointer leaves the element's boundary, the state is updated back to `false`. The hook returns this boolean state.
 
+To use `useRexoraHover`, import it from `@rexora/hooks`:
+
+
+
 This is particularly useful for implementing UI elements that respond to hover states, such as tooltips, dropdowns, or visual changes on hover, without manually managing event listeners in your components.
 
 ## Parameters

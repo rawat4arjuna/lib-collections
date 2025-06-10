@@ -2,6 +2,8 @@
 
 The `useRexoraRenderCount` hook tracks and returns the number of times a component has rendered. This hook is primarily useful for debugging and understanding component render behavior.
 
+
+
 ## Usage
 ```
 jsx

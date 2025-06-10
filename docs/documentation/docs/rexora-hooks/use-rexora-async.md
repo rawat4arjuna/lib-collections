@@ -6,6 +6,7 @@ title: useRexoraAsync
 The `useRexoraAsync` hook is a React hook that simplifies handling asynchronous operations, such as Promises or `async` functions, by managing their state (loading, success, error).
 
 ## Usage
+
 ```
 jsx
 import { useRexoraAsync } from '@rexora/hooks';

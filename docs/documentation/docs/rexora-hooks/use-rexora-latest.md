@@ -1,5 +1,7 @@
 # useRexoraLatest
 
+
+
 The `useRexoraLatest` hook provides a way to access the most recent value of a state or prop, even from within closures that might have captured an older value. This is particularly useful in scenarios where you need to access the current value of a dependency inside effects or event handlers without adding that dependency to the dependency array, which could cause unwanted re-executions.
 
 ## Functionality

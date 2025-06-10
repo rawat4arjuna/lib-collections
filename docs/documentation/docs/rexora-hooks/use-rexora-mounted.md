@@ -5,6 +5,8 @@ sidebar_label: useRexoraMounted
 
 # useRexoraMounted
 
+`useRexoraMounted` can be imported from `@rexora/hooks`.
+
 `useRexoraMounted` is a custom React hook that returns a boolean value indicating whether the component using the hook is currently mounted in the DOM. This can be useful for preventing state updates on unmounted components, which can lead to memory leaks and errors.
 
 ## Functionality

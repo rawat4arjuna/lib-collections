@@ -5,6 +5,7 @@ title: useRexoraForceUpdate
 
 The `useRexoraForceUpdate` hook provides a simple way to force a component to re-render. While React typically handles re-renders based on state and prop changes, there might be rare cases where you need to imperatively trigger an update.
 
+
 **Important:** Using `useRexoraForceUpdate` is generally discouraged in favor of managing component state or props to trigger updates. Use it sparingly and only when necessary.
 
 ## Usage

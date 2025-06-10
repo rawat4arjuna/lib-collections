@@ -2,6 +2,8 @@
 ---
 sidebar_position: 2
 ---
+
+import { useRexoraDebounceEffect } from "@rexora/hooks";
 # useRexoraDebounceEffect
 
 The `useRexoraDebounceEffect` hook provides a way to debounce the execution of an effect hook. This is particularly useful when you have dependencies that change frequently and you want to avoid triggering the effect on every single change. It works by waiting for a specified delay after the dependencies have stopped changing before executing the provided callback function.

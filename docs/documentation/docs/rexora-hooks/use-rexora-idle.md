@@ -5,6 +5,7 @@ sidebar_position: 18
 # useRexoraIdle
 
 The `useRexoraIdle` hook detects if the user is idle based on their activity (mousemove, keydown, scroll, etc.).
+It is imported from `@rexora/hooks`.
 
 ## Usage
 ```

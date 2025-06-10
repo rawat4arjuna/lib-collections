@@ -6,6 +6,8 @@ title: useRexoraOnline
 
 The `useRexoraOnline` hook is a simple utility hook that allows you to detect if the user's browser is currently online or offline. It leverages the browser's `navigator.onLine` property and listens for `online` and `offline` events to provide a reactive state reflecting the network connection status.
 
+
+
 ## Functionality
 
 This hook returns a boolean value that is `true` when the browser is online and `false` when it is offline. The returned value updates automatically in response to changes in the network connection.

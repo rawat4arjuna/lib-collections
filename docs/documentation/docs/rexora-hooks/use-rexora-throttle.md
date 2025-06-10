@@ -17,6 +17,8 @@ If the input is a function, the hook will return a new function that, when calle
 
 ## Parameters
 
+
+
 -   `value`: The value or function to throttle. This can be of any type.
 -   `delay`: The time interval (in milliseconds) to throttle the updates.
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useRexoraState } from "@rexora/hooks";
+import { useRexoraState } from "../../../../packages/hooks/src/index";
 type Props = {};
 
 export default function Sample({}: Props) {

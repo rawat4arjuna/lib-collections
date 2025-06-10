@@ -29,7 +29,7 @@ This is particularly useful for implementing UI elements that respond to hover s
 ```
 jsx
 import React, { useRef } from 'react';
-import { useRexoraHover } from '@rexora/hooks'; // Assuming your package name is @rexora/hooks
+import { useRexoraHover } from '@rexora/hooks'; 
 
 function MyComponent() {
   const elementRef = useRef(null);

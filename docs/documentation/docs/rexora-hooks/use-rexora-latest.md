@@ -20,7 +20,7 @@ A React ref object containing the latest value of the provided `value`. You can 
 ```
 javascript
 import { useState, useEffect } from 'react';
-import { useRexoraLatest } from '@@rexora/hooks/useRexoraLatest'; // Assuming your package name
+import { useRexoraLatest } from '@@rexora/hooks/useRexoraLatest';
 
 function MyComponent() {
   const [count, setCount] = useState(0);

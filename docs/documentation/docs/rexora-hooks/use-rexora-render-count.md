@@ -7,8 +7,7 @@ The `useRexoraRenderCount` hook tracks and returns the number of times a compone
 ## Usage
 ```
 jsx
-import { useRexoraRenderCount } from '@rexora/hooks'; // Assuming your package name
-
+import { useRexoraRenderCount } from '@rexora/hooks'; 
 function MyComponent() {
   const renderCount = useRexoraRenderCount();
 

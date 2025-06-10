@@ -12,7 +12,7 @@ function S(e, t) {
       throw new Error(`Unhandled action type: ${t.type}`);
   }
 }
-function x(e = {}) {
+function A(e = {}) {
   const [t, r] = L(S, e);
   return [t, (s, v) => {
     if (typeof s == "string")
@@ -27,7 +27,7 @@ function x(e = {}) {
     r({ type: "RESET_STATE" });
   }];
 }
-function I(e, t) {
+function D(e, t) {
   const [r, o] = c(e);
   return i(() => {
     const n = setTimeout(() => {
@@ -38,7 +38,7 @@ function I(e, t) {
     };
   }, [e, t]), r;
 }
-function p(e, t) {
+function x(e, t) {
   let r = !1, o, n, u = null;
   const s = m(
     (...v) => (n = v, r || (r = !0, o = e(...n), u = setTimeout(() => {
@@ -50,11 +50,11 @@ function p(e, t) {
     u && clearTimeout(u), r = !1;
   }, s;
 }
-function b(e, t) {
+function V(e, t) {
   const [r, o] = c(e), n = typeof e == "function", u = a(null);
   return i(() => {
     if (n) {
-      const s = p(e, t);
+      const s = x(e, t);
       return u.current = s, () => {
         u.current && u.current.cancel && u.current.cancel();
       };
@@ -68,7 +68,7 @@ function b(e, t) {
     }
   }, [e, t, n]), n ? u.current : r;
 }
-function A(e, t) {
+function _(e, t) {
   const r = a(e), o = a(null);
   return i(() => {
     r.current = e;
@@ -83,7 +83,7 @@ function A(e, t) {
     o.current && (clearTimeout(o.current), o.current = null);
   };
 }
-function D(e, t) {
+function M(e, t) {
   const r = a(e);
   i(() => {
     r.current = e;
@@ -110,23 +110,23 @@ function D(e, t) {
     };
   }, [t]), o.current;
 }
-function V(e = !1) {
+function C(e = !1) {
   const [t, r] = c(e), o = m(() => {
     r((n) => !n);
   }, []);
   return [t, o];
 }
-function _(e = !1) {
+function U(e = !1) {
   const [t, r] = c(e);
   return [t, { on: () => r(!0), off: () => r(!1), toggle: () => r((s) => !s) }];
 }
-function M() {
+function P() {
   const e = a(!1);
   return i(() => (e.current = !0, () => {
     e.current = !1;
   }), []), e.current;
 }
-const C = (e, t) => {
+const k = (e, t) => {
   const r = a(!0);
   i(() => {
     if (r.current) {
@@ -136,22 +136,22 @@ const C = (e, t) => {
     return e();
   }, t);
 };
-function U() {
+function H() {
   const e = a(!0);
   return e.current ? (e.current = !1, !0) : !1;
 }
-function P() {
+function O() {
   const [, e] = c(0);
   return m(() => {
     e((r) => r + 1);
   }, []);
 }
-function k(e) {
+function j(e) {
   const t = a(e);
   return t.current = e, t;
 }
-const H = typeof window < "u" ? g : i;
-function O(e) {
+const F = typeof window < "u" ? g : i;
+function W(e) {
   const [t, r] = c(!1);
   return i(() => {
     const o = e.current;
@@ -163,7 +163,7 @@ function O(e) {
     };
   }, [e]), t;
 }
-function j() {
+function $() {
   const [e, t] = c(navigator.onLine);
   return i(() => {
     const r = () => t(!0), o = () => t(!1);
@@ -172,8 +172,8 @@ function j() {
     };
   }, []), e;
 }
-const F = 6e4;
-function W(e = F) {
+const I = 6e4;
+function B(e = I) {
   const [t, r] = c(!1), o = a(null), n = () => {
     r(!1), o.current && clearTimeout(o.current), o.current = setTimeout(() => {
       r(!0);
@@ -183,7 +183,7 @@ function W(e = F) {
     o.current && clearTimeout(o.current), window.removeEventListener("mousemove", n), window.removeEventListener("keydown", n), window.removeEventListener("scroll", n), window.removeEventListener("click", n), window.removeEventListener("touchstart", n), window.removeEventListener("touchmove", n);
   }), [e]), t;
 }
-function $() {
+function K() {
   const [e, t] = c(() => document.visibilityState);
   return i(() => {
     const r = () => {
@@ -194,11 +194,11 @@ function $() {
     };
   }, []), e;
 }
-function B() {
+function q() {
   const e = a(0);
   return e.current++, e.current;
 }
-function K(e, t) {
+function z(e, t) {
   const [r, o] = c(null), [n, u] = c(!0), [s, v] = c(null);
   return i(() => {
     (async () => {
@@ -216,7 +216,7 @@ function K(e, t) {
     })();
   }, [e, t]), { data: r, loading: n, error: s };
 }
-function q(e) {
+function G(e) {
   const [t, r] = c({
     data: null,
     loading: !0,
@@ -232,7 +232,7 @@ function q(e) {
     o();
   }, [o]), t;
 }
-function z(e, t = { retries: 3, delay: 1e3 }, r = []) {
+function J(e, t = { retries: 3, delay: 1e3 }, r = []) {
   const [o, n] = c(), [u, s] = c(!0), [v, E] = c(null), [l, w] = c(0), d = a(!0), h = a(e);
   i(() => {
     h.current = e;
@@ -265,7 +265,7 @@ function z(e, t = { retries: 3, delay: 1e3 }, r = []) {
   }, []);
   return { data: o, loading: u, error: v, retry: R };
 }
-function G(e, t, r = []) {
+function N(e, t, r = []) {
   const [o, n] = c(null), [u, s] = c(!1), [v, E] = c(null), l = a(null), w = a(!1), d = async () => {
     s(!0), E(null);
     try {
@@ -285,30 +285,27 @@ function G(e, t, r = []) {
     w.current = !1, R();
   }), [t, ...r]), { data: o, loading: u, error: v, startPolling: h, stopPolling: R };
 }
-const Q = {
-  useRexoraState: x,
-  useRexoraDebounce: I,
-  useRexoraThrottle: b,
-  useRexoraTimeout: A,
-  useRexoraInterval: D,
-  useRexoraToggle: V,
-  useRexoraBoolean: _,
-  useRexoraMounted: M,
-  useRexoraUpdateEffect: C,
-  useRexoraFirstRender: U,
-  useRexoraForceUpdate: P,
-  useRexoraLatest: k,
-  useRexoraIsomorphicLayoutEffect: H,
-  useRexoraHover: O,
-  useRexoraOnline: j,
-  useRexoraIdle: W,
-  useRexoraDocumentVisibility: $,
-  useRexoraRenderCount: B,
-  useRexoraFetch: K,
-  useRexoraAsync: q,
-  useRexoraRetry: z,
-  useRexoraPolling: G
-};
 export {
-  Q as default
+  G as useRexoraAsync,
+  U as useRexoraBoolean,
+  D as useRexoraDebounce,
+  K as useRexoraDocumentVisibility,
+  z as useRexoraFetch,
+  H as useRexoraFirstRender,
+  O as useRexoraForceUpdate,
+  W as useRexoraHover,
+  B as useRexoraIdle,
+  M as useRexoraInterval,
+  F as useRexoraIsomorphicLayoutEffect,
+  j as useRexoraLatest,
+  P as useRexoraMounted,
+  $ as useRexoraOnline,
+  N as useRexoraPolling,
+  q as useRexoraRenderCount,
+  J as useRexoraRetry,
+  A as useRexoraState,
+  V as useRexoraThrottle,
+  _ as useRexoraTimeout,
+  C as useRexoraToggle,
+  k as useRexoraUpdateEffect
 };

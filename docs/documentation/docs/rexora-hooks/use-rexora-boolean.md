@@ -6,6 +6,8 @@ sidebar_position: 7
 
 The `useRexoraBoolean` hook is a simple utility hook for managing a boolean state with dedicated functions to set it to true, false, or toggle its value.
 
+
+
 ## Usage
 ```
 jsx

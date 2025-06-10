@@ -3,6 +3,9 @@ id: use-rexora-document-visibility
 title: useRexoraDocumentVisibility
 ---
 
+
+---
+
 The `useRexoraDocumentVisibility` hook is a utility that allows you to track the visibility state of the document. It provides a simple way to determine if the user is currently viewing the page or if it's hidden (e.g., in another tab or minimized).
 
 ## Usage

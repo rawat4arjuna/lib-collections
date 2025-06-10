@@ -2,23 +2,13 @@
 
 The `useRexoraRetry` hook provides a mechanism to automatically retry a failed asynchronous operation (like a fetch request) a specified number of times with optional delays between retries.
 
-## Installation
-```
-bash
-npm install your-rexora-hooks-package
-# or
-yarn add your-rexora-hooks-package
-```
-## Import
-```
-javascript
-import { useRexoraRetry } from 'your-rexora-hooks-package';
+
 ```
 ## Usage
 ```
 javascript
 import React from 'react';
-import { useRexoraRetry } from 'your-rexora-hooks-package';
+import { useRexoraRetry } from '@rexora/hooks';
 
 const fetchData = async () => {
   const response = await fetch('https://api.example.com/data');

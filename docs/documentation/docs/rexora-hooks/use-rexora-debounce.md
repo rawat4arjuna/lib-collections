@@ -7,7 +7,11 @@ The `useRexoraDebounce` hook provides a way to debounce a value in your React co
 
 ## Functionality
 
-This hook takes a value and a delay as input. It returns the debounced value, which will only update after the specified `delay` has passed without the input `value` changing. This prevents unnecessary re-renders or side effects that might occur with every change of the input value.
+`useRexoraDebounce` takes a value and a delay as input. It returns the debounced value, which will only update after the specified `delay` has passed without the input `value` changing. This prevents unnecessary re-renders or side effects that might occur with every change of the input value.
+
+## Installation
+
+
 
 ## Parameters
 

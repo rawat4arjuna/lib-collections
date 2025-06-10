@@ -3,24 +3,19 @@ sidebar_position: 1
 ---
 
 # Intro
-
-Let's discover **rexora + Docusaurus in less than 5 minutes**.
+Welcome to the Rexora documentation! Discover how Rexora can help you build modern, robust web applications efficiently.
 
 ## Getting Started
 
-Get started by **creating a new site** and enhancing it with **rexora** — your powerful toolkit of UI components, custom hooks, and utilities.
+Rexora is a comprehensive toolkit designed to accelerate your web development process. It provides a collection of ready-to-use UI components, powerful custom hooks, and helpful utilities to streamline building your applications. Get started by integrating Rexora into your existing project or a new site.
 
 
 ### What you'll need
 
 - [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+ - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
 ## Install it into your Appliaction
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
 
 ```bash
 npm install  @rexora/hooks

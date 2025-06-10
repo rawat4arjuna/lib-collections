@@ -10,7 +10,7 @@ It is imported from `@rexora/hooks`.
 ## Usage
 ```
 typescript
-import { useRexoraIdle } from 'rexora-hooks'; // Assuming rexora-hooks is your package name
+import { useRexoraIdle } from '@rexora/hooks'; // Assuming @rexora/hooks is your package name
 
 function MyComponent() {
   const isIdle = useRexoraIdle(3000); // 3000ms = 3 seconds

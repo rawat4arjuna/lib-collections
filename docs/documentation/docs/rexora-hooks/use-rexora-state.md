@@ -37,7 +37,7 @@ The hook returns a tuple containing:
 ```
 jsx
 import React from 'react';
-import {useRexoraState} from 'rexora-hooks' 
+import {useRexoraState} from '@rexora/hooks' 
 
 function StateComponent() {
   const [state, setState, removeState, resetState] = useRexoraState({

@@ -28,7 +28,7 @@ This hook is implemented using `useEffect` and `useRef` to manage the timer and 
 ## Usage
 ```
 jsx
-import { useRexoraDebounceEffect } from 'rexora-hooks'; 
+import { useRexoraDebounceEffect } from '@rexora/hooks'; 
 function MyComponent() {
   const [searchTerm, setSearchTerm] = useState('');
   const [results, setResults] = useState([]);

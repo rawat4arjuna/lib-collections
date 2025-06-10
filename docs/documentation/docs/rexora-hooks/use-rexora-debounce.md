@@ -26,7 +26,7 @@ The hook returns the debounced value.
 ```
 jsx
 import React, { useState } from 'react';
-import { useRexoraDebounce } from 'rexora-hooks';
+import { useRexoraDebounce } from '@rexora/hooks';
 
 function SearchInput() {
   const [searchTerm, setSearchTerm] = useState('');

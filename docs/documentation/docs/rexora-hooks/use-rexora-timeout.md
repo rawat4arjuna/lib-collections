@@ -8,7 +8,7 @@ The `useRexoraTimeout` hook provides a convenient way to set and clear a timeout
 ## Usage
 ```
 jsx
-import { useRexoraTimeout } from 'rexora-hooks';
+import { useRexoraTimeout } from '@rexora/hooks';
 import { useState } from 'react';
 
 function MyComponent() {

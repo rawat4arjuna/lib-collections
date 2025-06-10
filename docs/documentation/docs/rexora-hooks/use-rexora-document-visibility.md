@@ -11,7 +11,7 @@ The `useRexoraDocumentVisibility` hook is a utility that allows you to track the
 ## Usage
 ```
 jsx
-import { useRexoraDocumentVisibility } from 'rexora-hooks';
+import { useRexoraDocumentVisibility } from '@rexora/hooks';
 
 function MyComponent() {
   const visibilityState = useRexoraDocumentVisibility();

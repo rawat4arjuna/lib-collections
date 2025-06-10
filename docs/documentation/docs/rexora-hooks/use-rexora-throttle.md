@@ -33,7 +33,7 @@ If the input is a function, the hook will return a new function that, when calle
 ```
 jsx
 import React, { useState } from 'react';
-import { useRexoraThrottle } from 'rexora-hooks';
+import { useRexoraThrottle } from '@rexora/hooks';
 
 function ValueThrottleExample() {
   const [inputValue, setInputValue] = useState('');
@@ -58,7 +58,7 @@ In this example, `throttledValue` will only update at most every 500 millisecond
 ```
 jsx
 import React, { useState, useCallback } from 'react';
-import { useRexoraThrottle } from 'rexora-hooks';
+import { useRexoraThrottle } from '@rexora/hooks';
 
 function FunctionThrottleExample() {
   const [clickCount, setClickCount] = useState(0);

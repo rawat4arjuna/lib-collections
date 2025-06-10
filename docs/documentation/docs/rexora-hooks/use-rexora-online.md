@@ -26,7 +26,7 @@ The hook returns a single boolean value:
 ```
 jsx
 import React from 'react';
-import useRexoraOnline from '@rexora-hooks/useRexoraOnline'; // Assuming your hooks are in a package
+import useRexoraOnline from '@@rexora/hooks/useRexoraOnline'; // Assuming your hooks are in a package
 
 function OnlineStatusDisplay() {
   const isOnline = useRexoraOnline();

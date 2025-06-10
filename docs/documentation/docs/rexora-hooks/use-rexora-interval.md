@@ -8,7 +8,7 @@ The `useRexoraInterval` hook provides a convenient way to set up and manage an i
 ## Usage
 ```
 jsx
-import { useRexoraInterval } from 'rexora-hooks';
+import { useRexoraInterval } from '@rexora/hooks';
 import { useState } from 'react';
 
 function MyComponent() {

@@ -11,7 +11,7 @@ The `useRexoraBoolean` hook is a simple utility hook for managing a boolean stat
 ## Usage
 ```
 jsx
-import { useRexoraBoolean } from 'rexora-hooks';
+import { useRexoraBoolean } from '@rexora/hooks';
 
 function Component() {
   const [isVisible, { on, off, toggle }] = useRexoraBoolean(false);
@@ -47,7 +47,7 @@ The hook returns an array containing:
 ### Basic Usage
 ```
 jsx
-import { useRexoraBoolean } from 'rexora-hooks';
+import { useRexoraBoolean } from '@rexora/hooks';
 
 function MyComponent() {
   const [isOpen, { on, off, toggle }] = useRexoraBoolean(); // Defaults to false
